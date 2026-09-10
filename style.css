@@ -4,26 +4,64 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: rgb(31, 184, 245);
+    padding: 2rem;
+}
+
 .profile {
     position: relative;
+    flex: 0 0 300px;
 }
 
 .profile img {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    display: block;
 }
 
 .profile h1 {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;
     color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about {
+    flex: 0 0 320px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
 }
 
 .about img {
     width: 32px;
     height: 32px;
+}
+
+.about nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+.about nav a {
+    display: flex;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 5px;
 }
 
 .project-container {
