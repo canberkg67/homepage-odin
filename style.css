@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.profile img {
+    width: 300px;
+    height: 300px;
+}
+
+.about img {
+    width: 32px;
+    height: 32px;
+}
+
+footer img {
+    width: 120px;
+    height: 120px;
+}
