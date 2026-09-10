@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 
+.profile {
+    position: relative;
+}
+
 .profile img {
     width: 300px;
     height: 300px;
+    object-fit: cover;
+}
+
+.profile h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
 }
 
 .about img {
