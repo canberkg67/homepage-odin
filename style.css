@@ -26,8 +26,43 @@
     height: 32px;
 }
 
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.project-card {
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    padding: 1rem;
+}
+
 .project-card img {
-    width: 250px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-info {
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 8px;
 }
 
 .project-links img {
