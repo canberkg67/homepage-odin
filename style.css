@@ -79,7 +79,12 @@ header {
     flex: 0 0 320px;
     background-color: white;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.about:hover{
+    transform: translateY(-8px);
 }
 
 .about img {
@@ -118,6 +123,11 @@ section h2 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     overflow: hidden;
     padding: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
 }
 
 .project-card img {
